@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindset Therapy</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="title">Mind<span class="highlight">Set</span></h1>
+        <div class="quote-container">
+            <p id="quote">"Your mindset shapes your reality"</p>
+            <p id="author">- MindSet Therapy</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="switch-container" data-tooltip="Cultivate joy in everyday moments">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle-switch" data-trait="happiness">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="text">Happiness</div>
+                    <div class="progress-bar">
+                        <div class="progress" id="happiness-progress"></div>
+                    </div>
+                </div>
+                <div class="switch-container" data-tooltip="See the bright side of life">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle-switch" data-trait="optimism">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="text">Optimism</div>
+                    <div class="progress-bar">
+                        <div class="progress" id="optimism-progress"></div>
+                    </div>
+                </div>
+                <div class="switch-container" data-tooltip="Spread kindness wherever you go">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle-switch" data-trait="kindness">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="text">Kindness</div>
+                    <div class="progress-bar">
+                        <div class="progress" id="kindness-progress"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="switch-container" data-tooltip="The joy of giving is priceless">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle-switch" data-trait="giving">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="text">Giving</div>
+                    <div class="progress-bar">
+                        <div class="progress" id="giving-progress"></div>
+                    </div>
+                </div>
+                <div class="switch-container" data-tooltip="Treat others with respect">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle-switch" data-trait="respect">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="text">Respect</div>
+                    <div class="progress-bar">
+                        <div class="progress" id="respect-progress"></div>
+                    </div>
+                </div>
+                <div class="switch-container" data-tooltip="Let go of ego to grow">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle-switch" id="ego-switch" data-trait="ego">
+                        <span class="slider off"></span>
+                    </label>
+                    <div class="text">Ego</div>
+                    <div class="progress-bar">
+                        <div class="progress" id="ego-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div id="notification" class="notification"></div>
+    <script src="index.js"></script>
+</body>
+</html>
