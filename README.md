@@ -1,7 +1,8 @@
-🧠 Mindset Therapy
+🧠 Mindset Therapy<br>
 Live demo:https://srinivasjagarla-19.github.io/Mindset-Therapy/
+<br>
 Mindset Therapy is a modern and responsive landing page designed to promote mental wellness and therapy services. Built with HTML, CSS, and JavaScript, this website emphasizes self-care, personal growth, and emotional balance. It features a smooth scroll layout, clean UI/UX, engaging content, and call-to-action buttons that guide users to explore therapy resources or get in touch with professionals.
-
+<br>
 ✨ Features
 Responsive design (mobile-friendly)
 
